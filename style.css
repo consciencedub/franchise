@@ -33,6 +33,17 @@
 
 /* Request a Quote*/
 
+/*Vet Owned*/
+
+.vet-owned {
+background-color: lightgray;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
 /*Instagram*/
 
 .ig-position {
