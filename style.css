@@ -36,13 +36,48 @@
 /*Vet Owned*/
 
 .vet-owned {
+margin-bottom: 10px;
 background-color: lightgray;
-height: 400px;
+height: 450px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 }
+
+.top-rated {
+  margin-bottom: 10px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
+
+  .top-rated-logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .junk-remove-1 {
+    padding: 40px;
+    background-color: lightgray;
+    margin-bottom: 5px;
+  }
+
+  .junk-remove-2 {
+    padding: 50px;
+    background-color: lightgray;
+    /* height: 1000px; */
+    font-size: 24px;
+    line-height: 40px;
+
+  }
+
+  .request {
+    display: flex;
+    justify-content: center;
+  }
 
 /*Instagram*/
 
