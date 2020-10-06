@@ -31,9 +31,9 @@
 
 <div class="container-fluid nuetron">
 
-    <nav class="navbar navbar-dark bg-dark text-white hero-cell d-flex">
+    <nav class="pb-5 navbar navbar-dark bg-dark text-white hero-cell d-flex">
   <a class="navbar-brand"><img src="./design-assets/location.png" width="15px"><em style="padding-left: 20px">Tampa, FL.</em></a>
-  <form class="form-inline"> <em>CHECK AVAILABILITY</em>
+  <form class="form-inline"> <em class="pr-3" >CHECK AVAILABILITY</em>
     <input class="form-control mr-sm-2 .d-sm-none .d-md-block" type="search" placeholder="Enter Your Zipcode" aria-label="Search">
     <button class="btn btn-success my-2 my-sm-0" type="GO">GO</button>
   </form>
@@ -41,21 +41,82 @@
 
 </div>
 
-    <!-- Book Now-->
+    <!-- Tampa Bay Area Book Now-->
 
-    <div class="d-flex p-5">
+    <div class="container p-5">
       <div class="row">
-        <div class="col-9"><h1>
-          <div>Tampa Bay Area Junk Removal</H1> Whether it's residential or commercial, we're happy to remove your trash so you don't have to!</div>
-          <div><button type="button" class="btn btn-dark">Book Now</button> <a href="#">ITEMS WE REMOVE</a></div>
+        <div class="col-sm-7 flex-column">
+          <h5 class="text-uppercase">Tampa Bay Area Junk Removal</h5>
+          <h1 class= "mb-4">Whether it's residential or commercial, we're happy to remove your trash so you don't have to!</h1>
+        <button type="button" class="btn btn-lg btn-success mb-3">Book G.I. Haul Now</button>
+              <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-sm" data-toggle="modal" data-target="#myModal">Items We Remove</button>
         </div>
-        <div class="col-3"><img src= "./design-assets/junk.jpg" width="90%"></div>
+    
+        <div class="col-sm-5">
+          <img class="imge-fluid" src= "./design-assets/junk.jpg" height="400px">
+        </div>
+    
+      </div>
+    </div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title">Items We Remove</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg"> <ul>
+                <li>Refrigerator freezer removal</li>  
+                <li>Hot tub jacuzzi removal</li>  
+                <li>Furniture removal</li>  
+                <li>Swingset and tramoline removal</li>
+                <li>Television removal</li>
+                <li>Appliance removal</li>
+                <li>Business junk removal</li>
+                  <li>Oven and stove removal</li>
+                  <li>Old clutter removal</li>
+                  <li>Yard debris removal</li>
+                  <li>Waste removal</li>
+                  <li>Garbage removal</li>
+                  <li>Contractor garbage and waste removal</li>
+                  <li>Don't see your item on our list? <a href="">Contact us.</a></li>
+                  </ul>
+                  <button type="button" class="btn-sm" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+        
+      </div>
+    
+    </div>
+
+  </div>
+</div>
+        </div>
+        
       </div>
     </div>
 
     <!-- Veteran Owned-->
 
-    <div class="d-flex container-fluid vet-owned">
+    <!-- <div class="d-flex container-fluid vet-owned">
       <img class="mb-3 mx-auto" src="design-assets/veteran-owned--black.png" width="100px">
       <h2 class="mb-2 font-italic font-weight-bold">G.I. HAUL is ready to service your junk removal <br> needs in the Tampa Bay Area today!</h2>
       <h3 class="mb-2 font-weight-normal">We're Veteran Owned and Operated.</h3>
@@ -63,13 +124,56 @@
       <h3 class="mb-5 font-weight-normal">We'll beat any written junk removal estimate.</h3>
       <div><button type="button" class="btn btn-dark">REQUEST A QUOTE</button></div>
 
-    </div>
+    </div> -->
 
-    
+    <!--Gallery-->
+<!--Grid row-->
+<div class="row">
+
+  <!--Grid column-->
+  <div class="col-lg-4 col-md-12 mb-4">
+
+    <img src="design-assets/ig-1.jpg" class="img-fluid mb-4" alt="">
+
+    <img src="design-assets/ig-2.jpg" class="img-fluid mb-4" alt=""
+      data-wow-delay="0.3s">
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <img src="design-assets/gi-haul-3.jpg" class="img-fluid mb-4" alt=""
+      data-wow-delay="0.1s">
+
+    <img src="design-assets/gi-haul-4.jpg" class="img-fluid mb-4" alt=""
+      data-wow-delay="0.4s">
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <img src="design-assets/gi-haul-5.jpg" class="img-fluid mb-4" alt=""
+      data-wow-delay="0.2s">
+
+    <img src="design-assets/gi-haul-6.jpg" class="img-fluid mb-4" alt=""
+      data-wow-delay="0.5s">
+
+  </div>
+  <!--Grid column-->
+
+</div>
+<!--Grid row-->
+
+</div>
+
 
     <!-- Instagram-->
 
-    <div class="container-fluid p-0 my-container relative">
+    <!-- <div class="container-fluid p-0 my-container relative">
       <div class="row">
 
         <div class="col-sm-6 relative pr-1">
@@ -87,7 +191,7 @@
         </div>
 
       </div>
-    </div>
+    </div> -->
 
     <!-- Top Rated-->
 
@@ -113,36 +217,61 @@
     <div class="junk-remove-2">
 <div class="mb-3">Whether it's residential or commercial, we're happy to remove your trash so you don't have to!
 </div> 
-<ul>
-<li>Refrigerator freezer removal</li>  
-<li>Hot tub jacuzzi removal</li>  
-<li>Furniture removal</li>  
-<li>Swingset and tramoline removal</li>
-<li>Television removal</li>
-<li>Appliance removal</li>
-<li>Business junk removal</li>
-<li>Oven and stove removal</li>
-<li>Old clutter removal</li>
-<li>Yard debris removal</li>
-<li>Waste removal</li>
-<li>Garbage removal</li>
-<li>Contractor garbage and waste removal</li>
-<li>Don't see your item on our list? <a href="">Contact us.</a></li>
-</ul>
-<div class="request mt-5"><button type="button" class="btn btn-dark">REQUEST A QUOTE</button></div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul>
+        <li>Refrigerator freezer removal</li>  
+        <li>Hot tub jacuzzi removal</li>  
+        <li>Furniture removal</li>  
+        <li>Swingset and tramoline removal</li>
+        <li>Television removal</li>
+        <li>Appliance removal</li>
+        <li>Business junk removal</li>
+        </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <li>Oven and stove removal</li>
+        <li>Old clutter removal</li>
+        <li>Yard debris removal</li>
+        <li>Waste removal</li>
+        <li>Garbage removal</li>
+        <li>Contractor garbage and waste removal</li>
+        <li>Don't see your item on our list? <a href="">Contact us.</a></li>
+        </ul>
+    </div>
+<div class="container request mt-5"><button type="button" class="btn btn-dark">REQUEST A QUOTE</button></div>
+</div>
+</div>
 </div>
 
     <!-- Why Hire-->
 
-    <div class="d-flex p-5">
-      <div class="row">
-        <div class="col-9"><h1>
-          <div>Why Hire G.I. Haul?</H1> Our hassle free services allow you to go about your life, well we do th heavy lifting for you. New customers get $35 off.</div>
-          <div><button type="button" class="btn btn-dark">Book Now</button></div>
-        </div>
-        <div class="col-3"><img src= "./design-assets/beach.jpg" width="90%"></div>
-      </div>
+<div class="container p-5">
+  <div class="row">
+    <div class="col-sm-8">
+      <h5>WHY HIRE G.I. HAUL?</h5>
+<hr>
+<h1 class="">New customers get</h1>  <h1 class="display-1"><strong>$35 off!</strong></h1>
+<hr>
+<p class="lead">Our hassle free services allow you to go about your life, well we do the heavy lifting for you.</p> 
+    <button type="button" class="btn btn-lg btn-dark mb-3">Book G.I. Haul Now</button>
+
     </div>
+
+    <div class="col-sm-4">
+      <img src= "./design-assets/beach.jpg" width="100%">
+    </div>
+
+  </div>
+</div>
+
+  
+  
+    
+ 
+
 
     <!-- Footer-->
 
@@ -164,7 +293,8 @@
 
         <div class="container-fluid fluid-footer text-center">
            <div>
-             <img src="./design-assets/gihaul-logo--footer.jpg" width="200px" alt="GI Haul Logo">
+             <img class="pr-5" src="./design-assets/gihaul-logo--footer.jpg" width="200px" alt="GI Haul Logo">
+             <img class="invert ml-3 mx-auto" src="design-assets/veteran-owned--black.png" width="100px">
            </div>
            <div>
              <h1 class="phone">Call 1-855-8GI-HAUL</h1>>
@@ -178,7 +308,9 @@
         </div>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
 
