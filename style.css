@@ -68,9 +68,9 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  /* background-color: lightgray; */
-  background: rgb(61,84,28);
-  background: linear-gradient(0deg, rgba(61,84,28,1) 0%, rgba(100,139,44,1) 26%, rgba(159,223,68,1) 100%);
+  background-color: lightgray;
+  /* background: rgb(207, 245, 153); */
+  /* background: linear-gradient(0deg, rgba(61,84,28,1) 0%, rgba(100,139,44,1) 26%, rgba(159,223,68,1) 100%); */
   }
 
   .top-rated-logos {
