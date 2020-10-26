@@ -17,6 +17,9 @@
   <!--FontAwesome-->
   <script src="https://kit.fontawesome.com/6b768edb9b.js" crossorigin="anonymous"></script>
 
+  <!--internal script-->
+  <script src="script.js"></script>
+
   <title>GI-Haul</title>
 </head>
 
@@ -107,10 +110,11 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <form>
+        <form id="form--quote" name="quote">
           <div class="form-group col-md-6">
             <label for="exampleInputFirstName">Name</label>
             <input
+              name="full_name"
               type="text"
               class="form-control"
               id="InputFirst"
@@ -120,6 +124,7 @@
           <div class="form-group col-md-6">
             <label for="exampleInputLastName">Email</label>
             <input
+              name="email"
               type="email"
               class="form-control"
               id="exampleInputEmail"
@@ -129,6 +134,7 @@
           <div class="form-group col-md-6">
             <label for="exampleInputPhone">Phone</label>
             <input
+            name="phone"
               type="phone"
               class="form-control"
               id="exampleInputPhone"
@@ -138,6 +144,7 @@
           <div class="form-group col-md-6">
             <label for="exampleInputAddress">Address</label>
             <input
+            name="address"
               type="address"
               class="form-control"
               id="exampleInputAddress"
@@ -149,6 +156,7 @@
               <div class="form-group col-md-6">
             <label for="exampleInputCity">City</label>
             <input
+              name="city"
               type="text"
               class="form-control"
               id="exampleCity"
@@ -220,7 +228,11 @@
           </div>
           <div class="form-group col-md-6 mb-3">
             <label for="inputZip">Zipcode</label>
-            <input type="text" class="form-control" id="InputZip" />
+            <input 
+            name="zipcode"
+            type="text" 
+            class="form-control" 
+            id="InputZip" />
           </div>
     
           <div class="ml-3">
@@ -228,11 +240,11 @@
               <input
                 class="form-check-input"
                 type="radio"
-                name="exampleRadios"
-                id="exampleRadios1"
-                value="option2"
+                name="residentialRadio"
+                id="residential"
+                value="option1"
               />
-              <label class="form-check-label" for="exampleRadios1">
+              <label class="form-check-label" for="residentialRadios1">
                 Residential
               </label>
             </div>
@@ -240,8 +252,8 @@
               <input
                 class="form-check-input"
                 type="radio"
-                name="exampleRadios"
-                id="exampleRadios2"
+                name="commercialRadio"
+                id="commercial"
                 value="option2"
               />
               <label class="form-check-label" for="exampleRadios2">
@@ -252,6 +264,7 @@
           <div class="form-group ml-3">
             <label for="comment">Description of Junk:</label>
             <textarea
+              name="message"
               maxlength="290"
               class="form-control"
               rows="5"
@@ -266,6 +279,7 @@
                 <span class="input-group-text">$</span>
               </div>
               <input
+                name="budget"
                 type="text"
                 class="form-control"
                 aria-label="Amount (to the nearest dollar)"
@@ -276,7 +290,11 @@
               </div>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <input 
+              name="subscribe"
+              type="checkbox" 
+              class="form-check-input" 
+              id="subscribeCheck1" />
               <label class="form-check-label" for="exampleCheck1"
                 >Subscribe to newsletter</label
               >
@@ -285,7 +303,7 @@
         </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button onclick="myFunction()" type="button" class="btn btn-primary">Submit</button>
         </div>
         
       </div>
